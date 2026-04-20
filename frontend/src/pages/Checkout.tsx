@@ -15,7 +15,7 @@ export default function Checkout() {
   const { items, totalPrice, clearCart } = useCart();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [mpesaStatus, setMpesaStatus] = useState<MpesaStatus>('idle');
-  const [orderId, setOrderId] = useState('');
+  const [, setOrderId] = useState('');
 
   const [formData, setFormData] = useState({
     name: '',

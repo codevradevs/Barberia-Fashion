@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ShoppingBag, Heart, Share2, ChevronLeft, ChevronRight, MessageCircle } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
